@@ -1,0 +1,61 @@
+
+.loading {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .landing_container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px; 
+  } 
+  .loading_btn {
+    position: absolute;
+    top:  265px;
+    left: 624px;
+    width: 140px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #e4f3a0 0%, #758d20 100%);
+    border: 2px solid darkslategray;
+    cursor: pointer;
+    animation: start 2s ease-in-out infinite;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(21, 43, 43);
+    
+  }
+  
+  
+   
+  @keyframes start{
+    70% {
+      transform: translateY(0%);
+    }
+    80% {
+      transform: translateY(-15%);
+    }
+    90% {
+      transform: translateY(0%);
+    }
+    95% {
+      transform: translateY(-7%);
+    }
+    97% {
+      transform: translateY(0%);
+    }
+    99% {
+      transform: translateY(-3%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
