@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Bienvenido-a-nuestro-clan/static/css/main.88d2cf31.css",
+    "main.js": "/Bienvenido-a-nuestro-clan/static/js/main.1e42734c.js",
+    "static/media/portada-app.png": "/Bienvenido-a-nuestro-clan/static/media/portada-app.c166d0e8647cdd11814b.png",
+    "index.html": "/Bienvenido-a-nuestro-clan/index.html",
+    "main.88d2cf31.css.map": "/Bienvenido-a-nuestro-clan/static/css/main.88d2cf31.css.map",
+    "main.1e42734c.js.map": "/Bienvenido-a-nuestro-clan/static/js/main.1e42734c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d2cf31.css",
+    "static/js/main.1e42734c.js"
+  ]
+}
