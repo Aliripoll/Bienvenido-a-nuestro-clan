@@ -1,50 +1,68 @@
 
 .loading {
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 120px;
+    padding-top: 30px;
     width: 100%;
-    position: sticky;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  
-  .landing_container {
-    background-repeat: no-repeat;
-    background-size: cover;
-     height:fit-content;  
 
-  } 
-
-  .loading_btn {
-    position: absolute;
-    top:  265px;
-    left: 624px;
-    width: 140px;
-    height: 30px;
-    font-size: 13px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #e4f3a0 0%, #758d20 100%);
-    border: 2px solid darkslategray;
-    cursor: pointer;
-    animation: start 2s ease-in-out infinite;
-    font-family: 'Press Start 2P', cursive;
-    color: rgb(21, 43, 43);
-    
+  .landing_img {
+    background-size: cover;  
+    width:400px;
+    height:300px; 
   }
-  
+
+  .text_title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .title_welcome {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: rgb(55, 66, 51);
+  }
+  .title_span {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    color: rgb(113, 89, 38);
+  }
+ 
+  .loading_btn {
+    margin-top: 25px;
+    width: 110px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(177, 238, 56);
+    cursor: pointer;
+    animation: start 2s ease infinite;
+  }
+  .anchor {
+    background-color: rgb(177, 238, 56);
+  }
 
   @media (min-width: 768px) {
     .loading {
+      margin-top: 60px;
       width: 100%;
-      height: 670px;
-
     }
-    .landing_container {
-      width: 100%;
-      height: 650px; 
-    } 
+
+    .landing_img {
+        width: 730px;
+        height:420px; 
+      }
+
+    .title_welcome {
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+    .title_span {
+        font-size: 26px;
+      }
   }
   
    
