@@ -1,0 +1,119 @@
+.text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    width: 250px;
+    line-height: 35px;
+    margin: 0 10px 0 10px;
+    margin-top: 25%; 
+    word-wrap: break-word;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 16px;
+    color: rgb(77, 48, 10);
+    width: 16ch;  
+    animation: typing 3s steps(16), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid;
+}
+.paragraph {
+    font-size: 18px;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 20px 15px 20px 15px;
+    text-align: center;
+}
+.end_title {
+    display: block;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(187, 75, 55); 
+}
+
+.next_btn {
+    margin-top: 25px;
+    width: 90px;
+    height: 22px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: rgb(177, 238, 56);
+    cursor: pointer;
+    animation: start 7s ease infinite;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .text_container {
+    height:auto;
+    width: 900px;
+    line-height: 50px;;
+    margin: 0 auto;
+    margin-top: 10%; 
+    word-wrap: break-word;
+  }
+  .title {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 24px;
+  }
+  .paragraph {
+    font-size: 37px;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 30px 25px 30px 25px;
+  }
+  .end_title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .next_btn {
+    margin-top: 25px;
+    width: 110px;
+    height: 25px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+@keyframes typing {
+    from { width: 0 }    
+}
+
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+@keyframes next{
+    70% {
+      transform: translateY(0%);
+    }
+    80% {
+      transform: translateY(-15%);
+    }
+    90% {
+      transform: translateY(0%);
+    }
+    95% {
+      transform: translateY(-7%);
+    }
+    97% {
+      transform: translateY(0%);
+    }
+    99% {
+      transform: translateY(-3%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

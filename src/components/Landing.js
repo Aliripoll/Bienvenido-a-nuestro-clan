@@ -13,7 +13,7 @@ function Landing () {
       </div>
 
         <img className="landing_img" src={portada} />
-    <Link to="/Pantalla2">
+    <Link to="/FirstScreen">
     <button className="loading_btn">COMENZAR</button>
     </Link>
            
